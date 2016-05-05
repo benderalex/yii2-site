@@ -50,4 +50,21 @@ class Catalog extends \yii\db\ActiveRecord
             'product_description' => 'Product Description',
         ];
     }
+
+
+    public function behaviors()
+    {
+        return [
+            'slug' => [
+                'class' => 'common\behaviors\Slug',
+                'in_attribute' => 'product_name',
+                'out_attribute' => 'product_url',
+                'translit' => true
+            ]
+        ];
+    }
+
+
+
+
 }
