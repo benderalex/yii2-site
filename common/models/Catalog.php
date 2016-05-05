@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use zxbodya\yii2\galleryManager\GalleryBehavior;
 
 /**
  * This is the model class for table "catalog".
@@ -52,6 +53,13 @@ class Catalog extends \yii\db\ActiveRecord
     }
 
 
+    public function getCategories()
+    {
+        return $this->hasMany(Categories::className(), ['product_id' => 'category_name'])->viaTable('products_incategory', ['product_id' => 'category_id']);
+    }
+
+
+
     public function behaviors()
     {
         return [
@@ -60,7 +68,43 @@ class Catalog extends \yii\db\ActiveRecord
                 'in_attribute' => 'product_name',
                 'out_attribute' => 'product_url',
                 'translit' => true
-            ]
+            ],
+
+            'title' => [
+                'class' => 'common\behaviors\Title',
+                'in_attribute' => 'product_name',
+                'out_attribute' => 'product_title',
+            ],
+
+
+
+            'galleryBehavior' => [
+                'class' => GalleryBehavior::className(),
+                'type' => 'catalog',
+                'extension' => 'jpg',
+                'directory' => '/var/www/html/yii32/uploads/',
+                'url' => '/yii32/uploads',
+                'versions' => [
+                    'small' => function ($img) {
+                        /** @var \Imagine\Image\ImageInterface $img */
+                        return $img
+                            ->copy()
+                            ->thumbnail(new \Imagine\Image\Box(200, 200));
+                    },
+                    'medium' => function ($img) {
+                        /** @var Imagine\Image\ImageInterface $img */
+                        $dstSize = $img->getSize();
+                        $maxWidth = 800;
+                        if ($dstSize->getWidth() > $maxWidth) {
+                            $dstSize = $dstSize->widen($maxWidth);
+                        }
+                        return $img
+                            ->copy()
+                            ->resize($dstSize);
+                    },
+                ]
+            ],
+
         ];
     }
 

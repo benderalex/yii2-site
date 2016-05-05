@@ -8,6 +8,7 @@ use common\models\CatalogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use zxbodya\yii2\galleryManager\GalleryManagerAction;
 
 /**
  * CatalogController implements the CRUD actions for Catalog model.
@@ -121,4 +122,20 @@ class CatalogController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+
+    public function actions()
+    {
+        return [
+            'galleryApi' => [
+                'class' => GalleryManagerAction::className(),
+                // mappings between type names and model classes (should be the same as in behaviour)
+                'types' => [
+                    'catalog' => Catalog::className()
+                ]
+            ],
+        ];
+    }
+
+
 }

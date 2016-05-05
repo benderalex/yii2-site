@@ -11,7 +11,6 @@ $this->title = 'Catalogs';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="catalog-index">
-
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
@@ -23,13 +22,11 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
             'id',
             'product_name',
             'product_url:url',
             'product_title',
             'product_description:ntext',
-
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

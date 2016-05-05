@@ -9,7 +9,9 @@ use Yii;
  *
  * @property integer $id
  * @property string $category_name
- * @property string $seo_alias
+ * @property string $category_url
+ * @property string $page_title
+ * @property string $category_title
  */
 class Categories extends \yii\db\ActiveRecord
 {
@@ -27,8 +29,8 @@ class Categories extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['category_name', 'seo_alias'], 'required'],
-            [['category_name', 'seo_alias'], 'string', 'max' => 65],
+            [['category_name'], 'required'],
+            [['category_name', 'category_url', 'page_title', 'category_title'], 'string', 'max' => 65],
             [['category_name'], 'unique'],
         ];
     }
@@ -41,7 +43,37 @@ class Categories extends \yii\db\ActiveRecord
         return [
             'id' => 'ID',
             'category_name' => 'Category Name',
-            'seo_alias' => 'Seo Alias',
+            'category_url' => 'Category Url',
+            'page_title' => 'Page Title',
+            'category_title' => 'Category Title',
         ];
     }
+
+
+    public function behaviors()
+    {
+        return [
+            'setURLTranslitIfEmpty' => [
+                'class' => 'common\behaviors\Slug',
+                'in_attribute' => 'category_name',
+                'out_attribute' => 'category_url',
+                'translit' => true
+            ],
+
+            'setPageTitleIfEmpty' => [
+                'class' => 'common\behaviors\Title',
+                'in_attribute' => 'category_name',
+                'out_attribute' => 'page_title',
+            ],
+
+            'setCategoryTitleIfEmpty' => [
+                'class' => 'common\behaviors\Title',
+                'in_attribute' => 'category_name',
+                'out_attribute' => 'category_title',
+            ],
+        ];
+
+    }
+
+
 }

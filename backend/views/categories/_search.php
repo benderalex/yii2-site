@@ -19,7 +19,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'category_name') ?>
 
-    <?= $form->field($model, 'seo_alias') ?>
+    <?= $form->field($model, 'category_url') ?>
+
+    <?= $form->field($model, 'page_title') ?>
+
+    <?= $form->field($model, 'category_title') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

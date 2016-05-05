@@ -10,6 +10,16 @@ $this->title = $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Catalogs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
+
+
+<?php
+
+var_dump($model->categories);
+
+?>
+
+
+
 <div class="catalog-view">
 
     <h1><?= Html::encode($this->title) ?></h1>

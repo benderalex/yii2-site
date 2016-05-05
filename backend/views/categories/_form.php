@@ -14,7 +14,11 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'category_name')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'seo_alias')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'category_url')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'page_title')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'category_title')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
