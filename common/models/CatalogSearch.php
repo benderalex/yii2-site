@@ -19,7 +19,7 @@ class CatalogSearch extends Catalog
     {
         return [
             [['id'], 'integer'],
-            [['product_name', 'product_url', 'product_title'], 'safe'],
+            [['product_name', 'product_url', 'product_title', 'product_description'], 'safe'],
         ];
     }
 
@@ -64,7 +64,8 @@ class CatalogSearch extends Catalog
 
         $query->andFilterWhere(['like', 'product_name', $this->product_name])
             ->andFilterWhere(['like', 'product_url', $this->product_url])
-            ->andFilterWhere(['like', 'product_title', $this->product_title]);
+            ->andFilterWhere(['like', 'product_title', $this->product_title])
+            ->andFilterWhere(['like', 'product_description', $this->product_description]);
 
         return $dataProvider;
     }

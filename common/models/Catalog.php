@@ -11,6 +11,7 @@ use Yii;
  * @property string $product_name
  * @property string $product_url
  * @property string $product_title
+ * @property string $product_description
  */
 class Catalog extends \yii\db\ActiveRecord
 {
@@ -28,8 +29,10 @@ class Catalog extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['product_name', 'product_url', 'product_title'], 'required'],
-            [['product_name', 'product_url', 'product_title'], 'string', 'max' => 65],
+            [['product_name'], 'required'],
+            [['product_description'], 'string'],
+            [['product_name', 'product_url'], 'string', 'max' => 65],
+            [['product_title'], 'string', 'max' => 255],
             [['product_name'], 'unique'],
         ];
     }
@@ -44,6 +47,7 @@ class Catalog extends \yii\db\ActiveRecord
             'product_name' => 'Product Name',
             'product_url' => 'Product Url',
             'product_title' => 'Product Title',
+            'product_description' => 'Product Description',
         ];
     }
 }

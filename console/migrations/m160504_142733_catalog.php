@@ -14,8 +14,9 @@ class m160504_142733_catalog extends Migration
         $this->createTable('{{%catalog}}', [
             'id' => $this->primaryKey(),
             'product_name' => $this->string(65)->notNull()->unique(),
-            'product_url' => $this->string(65)->notNull(),
-            'product_title' => $this->string(65)->notNull(),
+            'product_url' => $this->string(65),
+            'product_title' => $this->string(255),
+            'product_description' => $this->text(),
             ], $tableOptions);
 
 
