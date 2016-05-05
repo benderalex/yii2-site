@@ -55,7 +55,8 @@ class Catalog extends \yii\db\ActiveRecord
 
     public function getCategories()
     {
-        return $this->hasMany(Categories::className(), ['product_id' => 'category_name'])->viaTable('products_incategory', ['product_id' => 'category_id']);
+        return $this->hasMany(Categories::className(),['id' => 'category_id'])
+                    ->viaTable('products_incategory',['product_id' => 'id']);
     }
 
 
