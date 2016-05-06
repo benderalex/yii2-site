@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use common\models\Categories;
 use zxbodya\yii2\galleryManager\GalleryManager;
 
 /* @var $this yii\web\View */
@@ -20,9 +21,11 @@ use zxbodya\yii2\galleryManager\GalleryManager;
     <?= $form->field($model, 'product_title')->textInput(['maxlength' => true]) ?>
 
 
+
     <?= $form->field($model, 'product_description')->textarea(['rows' => 6]) ?>
 
-    <?php// echo $form->field($model, 'product_category[]')->checkboxList(['a' => 'Item A', 'b' => 'Item B', 'c' => 'Item C']); ?>
+
+    <?= $form->field($model, 'product_category')->dropDownList(Categories::listAll(), ['multiple' => true]) ?>
 
 
 

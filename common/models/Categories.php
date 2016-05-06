@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 
 /**
  * This is the model class for table "categories".
@@ -22,6 +23,19 @@ class Categories extends \yii\db\ActiveRecord
     {
         return 'categories';
     }
+
+    public static function listAll($keyField = 'id', $valueField = 'category_name', $asArray = true)
+    {
+        $query = static::find();
+        if ($asArray) {
+            $query->select([$keyField, $valueField])->asArray();
+        }
+
+        return ArrayHelper::map($query->all(), $keyField, $valueField);
+    }
+
+
+
 
     /**
      * @inheritdoc
