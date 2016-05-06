@@ -13,9 +13,13 @@ use zxbodya\yii2\galleryManager\GalleryBehavior;
  * @property string $product_url
  * @property string $product_title
  * @property string $product_description
+ 
  */
 class Catalog extends \yii\db\ActiveRecord
 {
+
+    public $product_category;
+
     /**
      * @inheritdoc
      */
@@ -34,6 +38,7 @@ class Catalog extends \yii\db\ActiveRecord
             [['product_description'], 'string'],
             [['product_name', 'product_url'], 'string', 'max' => 65],
             [['product_title'], 'string', 'max' => 255],
+
             [['product_name'], 'unique'],
         ];
     }
@@ -49,6 +54,7 @@ class Catalog extends \yii\db\ActiveRecord
             'product_url' => 'Product Url',
             'product_title' => 'Product Title',
             'product_description' => 'Product Description',
+            'product_category' => 'Категория ',
         ];
     }
 
@@ -60,6 +66,20 @@ class Catalog extends \yii\db\ActiveRecord
     }
 
 
+    public function beforeSave($insert)
+    {
+        if (parent::beforeSave($insert)) {
+
+            $productCategory = new ProductsIncategory();
+            $productCategory->category_id = 1; //$this->product_category;
+            $productCategory->product_id = $this->id;
+            $productCategory->save();
+
+
+            return true;
+        }
+        return false;
+    }
 
     public function behaviors()
     {
@@ -108,8 +128,4 @@ class Catalog extends \yii\db\ActiveRecord
 
         ];
     }
-
-
-
-
 }

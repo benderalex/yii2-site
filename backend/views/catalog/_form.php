@@ -19,7 +19,12 @@ use zxbodya\yii2\galleryManager\GalleryManager;
 
     <?= $form->field($model, 'product_title')->textInput(['maxlength' => true]) ?>
 
+
     <?= $form->field($model, 'product_description')->textarea(['rows' => 6]) ?>
+
+    <?php// echo $form->field($model, 'product_category[]')->checkboxList(['a' => 'Item A', 'b' => 'Item B', 'c' => 'Item C']); ?>
+
+
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

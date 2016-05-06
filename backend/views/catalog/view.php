@@ -13,7 +13,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <?php
-if (!empty($model->categories[0]['category_name'])):  echo $model->categories[0]['category_name']; endif;
+if (!empty($model->categories)):
+    foreach ($model->categories as $category) {
+        echo $category['category_name'];
+    }
+    endif;
+
 ?>
 
 

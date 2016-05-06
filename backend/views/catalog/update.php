@@ -5,11 +5,23 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\Catalog */
 
-$this->title = 'Update Catalog: ' . $model->id;
+$this->title = 'Update Product: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Catalogs', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
+
+
+<?php
+if (!empty($model->categories)):
+    foreach ($model->categories as $category) {
+        echo $category['category_name'];
+    }
+endif;
+?>
+
+
+
 <div class="catalog-update">
 
     <h1><?= Html::encode($this->title) ?></h1>

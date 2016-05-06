@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use common\models\ProductsIncategory;
 use Yii;
 use common\models\Catalog;
 use common\models\CatalogSearch;
@@ -84,12 +85,14 @@ class CatalogController extends Controller
     public function actionUpdate($id)
     {
         $model = $this->findModel($id);
+        $productModel = new ProductsIncategory();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
                 'model' => $model,
+                //'products' => $productModel::find()->where([para]])->all(),
             ]);
         }
     }
