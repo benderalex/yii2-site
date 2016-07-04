@@ -4,6 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use common\models\Categories;
 use zxbodya\yii2\galleryManager\GalleryManager;
+use dosamigos\ckeditor\CKEditor;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Catalog */
@@ -20,13 +21,9 @@ use zxbodya\yii2\galleryManager\GalleryManager;
 
     <?= $form->field($model, 'product_title')->textInput(['maxlength' => true]) ?>
 
-
-
-    <?= $form->field($model, 'product_description')->textarea(['rows' => 6]) ?>
-
+    <?= $form->field($model, 'product_description')->widget(CKEditor::className(), [ 'preset' => 'basic' ]) ?>
 
     <?= $form->field($model, 'category_list')->dropDownList(Categories::listAll(), ['multiple' => true]) ?>
-
 
 
     <div class="form-group">
@@ -35,7 +32,6 @@ use zxbodya\yii2\galleryManager\GalleryManager;
 
 
     <?php
-
 
     if ($model->isNewRecord) {
         echo 'Can not upload images for new record';
@@ -48,9 +44,6 @@ use zxbodya\yii2\galleryManager\GalleryManager;
             ]
         );
     }
-
-
-
 
     ?>
 
