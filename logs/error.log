@@ -1,0 +1,714 @@
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 3 in /var/www/html/y" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "ii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsStri" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "ng() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handl" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "eException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandl" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "er.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/ww" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "w/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->han" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "dleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 3 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisof" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "t/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yi" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "i2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 7" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "0
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 3 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yi" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "isoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP mess" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "age: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/w" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:18 [error] 925#925: *137 FastCGI sent in stderr: "ww/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__t" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "oString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: ":  Expected array for frame 3 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsStri" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "ng() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PH" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "P message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandl" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "er.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php on line 243
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\log\Target->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\log\FileTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:111
+PHP message: PHP   6. array_map() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   7. yii\log\Target->formatMessage() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/FileTarget.php:106
+PHP message: PHP   8. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243
+PHP message: PHP   9. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Target.php:243" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP m" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "essage: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->han" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "dleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 3 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPan" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "el->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleExcep" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "tion() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 7" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "0
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:111
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 0 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 1 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 2 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 3 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->han" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "dleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 4 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 5 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP mess" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "age: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 6 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 7 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 8 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 9 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogT" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "arget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "PHP message: PHP Warning:  Expected array for frame 10 in /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php on line 70
+PHP message: PHP Stack trace:
+PHP message: PHP   1. yii\base\ErrorHandler->handleException() /var/www/html/yii2-site/vendor/yiisoft/yii2/base/ErrorHandler.php:0
+PHP" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:39:22 [error] 925#925: *137 FastCGI sent in stderr: "message: PHP   2. yii\log\Logger->flush() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:0
+PHP message: PHP   3. yii\log\Dispatcher->dispatch() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Logger.php:173
+PHP message: PHP   4. yii\debug\LogTarget->collect() /var/www/html/yii2-site/vendor/yiisoft/yii2/log/Dispatcher.php:188
+PHP message: PHP   5. yii\debug\LogTarget->export() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:118
+PHP message: PHP   6. yii\debug\panels\LogPanel->save() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/LogTarget.php:54
+PHP message: PHP   7. Exception->__toString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70
+PHP message: PHP   8. Exception->getTraceAsString() /var/www/html/yii2-site/vendor/yiisoft/yii2-debug/panels/LogPanel.php:70" while reading upstream, client: 127.0.0.1, server: yii.my, request: "POST /admin/catalog/galleryApi?type=catalog&behaviorName=galleryBehavior&galleryId=4&action=ajaxUpload HTTP/1.1", upstream: "fastcgi://unix:/run/php/php7.0-fpm.sock:", host: "yii.my", referrer: "http://yii.my/admin/catalog/update?id=4"
+2016/07/04 16:53:27 [error] 4620#4620: *1 open() "/var/www/html/yii2-site/uploads/6/7/preview.jpg" failed (2: No such file or directory), client: 127.0.0.1, server: yii.my, request: "GET /uploads/6/7/preview.jpg?_=3056915491 HTTP/1.1", host: "yii.my"

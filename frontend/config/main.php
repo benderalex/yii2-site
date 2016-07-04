@@ -12,6 +12,25 @@ return [
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'components' => [
+
+        'view' => [
+            'class' => 'yii\web\View',
+            'renderers' => [
+                'twig' => [
+                    'class' => 'yii\twig\ViewRenderer',
+                    'cachePath' => '@runtime/Twig/cache',
+                    // Array of twig options:
+                    'options' => [
+                        'auto_reload' => true,
+                    ],
+                    'globals' => ['html' => '\yii\helpers\Html'],
+                    'uses' => ['yii\bootstrap'],
+                ],
+
+            ],
+        ],
+
+                
         'user' => [
             'class' => 'amnah\yii2\user\components\User',
         ],

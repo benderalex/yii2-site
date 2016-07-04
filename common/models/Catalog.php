@@ -95,8 +95,8 @@ class Catalog extends \yii\db\ActiveRecord
                 'class' => GalleryBehavior::className(),
                 'type' => 'catalog',
                 'extension' => 'jpg',
-                'directory' => '/var/www/html/yii32/uploads/',
-                'url' => '/yii32/uploads',
+                'directory' => '/var/www/html/yii2-site/uploads/',
+                'url' => '/uploads',
                 'versions' => [
                     'small' => function ($img) {
                         /** @var \Imagine\Image\ImageInterface $img */

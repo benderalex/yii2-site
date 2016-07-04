@@ -34,7 +34,7 @@ use dosamigos\ckeditor\CKEditor;
     <?php
 
     if ($model->isNewRecord) {
-        echo 'Can not upload images for new record';
+        echo 'Не могу загрузить изображения для нового товара.';
     } else {
         echo GalleryManager::widget(
             [
