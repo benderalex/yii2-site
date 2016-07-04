@@ -38,8 +38,8 @@ class Catalog extends \yii\db\ActiveRecord
             [['product_description'], 'string'],
             [['product_name', 'product_url'], 'string', 'max' => 65],
             [['product_title'], 'string', 'max' => 255],
-            [['product_category'], 'safe'],
             [['product_name'], 'unique'],
+            [['category_list'], 'safe'],
         ];
     }
 
@@ -62,29 +62,24 @@ class Catalog extends \yii\db\ActiveRecord
     public function getCategories()
     {
         return $this->hasMany(Categories::className(),['id' => 'category_id'])
-                    ->viaTable('products_incategory',['product_id' => 'id']);
+                    ->viaTable('products_in_category',['product_id' => 'id']);
     }
 
 
-    public function beforeSave($insert)
-    {
-        if (parent::beforeSave($insert)) {
-
-            $productCategory = new ProductsIncategory();
-            $productCategory->category_id = $this->product_category[1];
-            $productCategory->product_id = $this->id;
-            $productCategory->save();
 
 
-
-            return true;
-        }
-        return false;
-    }
 
     public function behaviors()
     {
         return [
+            [
+                'class' => \common\behaviors\ManyHasManyBehavior::className(),
+                'relations' => [
+                    'categories' => 'category_list',
+                ],
+            ],
+            
+
             'slug' => [
                 'class' => 'common\behaviors\Slug',
                 'in_attribute' => 'product_name',
@@ -97,8 +92,6 @@ class Catalog extends \yii\db\ActiveRecord
                 'in_attribute' => 'product_name',
                 'out_attribute' => 'product_title',
             ],
-
-
 
             'galleryBehavior' => [
                 'class' => GalleryBehavior::className(),

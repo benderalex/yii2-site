@@ -25,7 +25,7 @@ use zxbodya\yii2\galleryManager\GalleryManager;
     <?= $form->field($model, 'product_description')->textarea(['rows' => 6]) ?>
 
 
-    <?= $form->field($model, 'product_category')->dropDownList(Categories::listAll(), ['multiple' => true]) ?>
+    <?= $form->field($model, 'category_list')->dropDownList(Categories::listAll(), ['multiple' => true]) ?>
 
 
 

@@ -27,6 +27,9 @@ AppAsset::register($this);
 
 <div class="wrap">
     <?php
+
+
+
     NavBar::begin([
         'brandLabel' => 'My Company',
         'brandUrl' => Yii::$app->homeUrl,
@@ -34,11 +37,20 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    $menuItems = [
-        ['label' => 'Home', 'url' => ['/site/index']],
-    ];
+
+    if (!Yii::$app->user->isGuest) {
+
+        $menuItems = [
+            ['label' => 'Home', 'url' => ['/site/index']],
+            ['label' => 'Каталог', 'url' => ['/catalog/index']],
+            ];
+
+    }
+
+
     if (Yii::$app->user->isGuest) {
-        $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+
+        $menuItems[] = ['label' => 'Login', 'url' => ['/user/login']];
     } else {
         $menuItems[] = '<li>'
             . Html::beginForm(['/site/logout'], 'post')
@@ -55,6 +67,9 @@ AppAsset::register($this);
     ]);
     NavBar::end();
     ?>
+
+
+
 
     <div class="container">
         <?= Breadcrumbs::widget([

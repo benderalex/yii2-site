@@ -2,7 +2,7 @@
 
 use yii\db\Migration;
 
-class m160505_144848_products_incategory extends Migration
+class m160704_092350_products_in_category extends Migration
 {
     public function up()
     {
@@ -12,18 +12,19 @@ class m160505_144848_products_incategory extends Migration
             $tableOptions = 'CHARACTER SET utf8 COLLATE utf8_unicode_ci ENGINE=InnoDB';
         }
 
-        $this->createTable('{{%products_incategory}}', [
-            'id' => $this->primaryKey(),
-            'category_id' => $this->integer(),
-            'product_id' => $this->integer(),
-        ], $tableOptions);
+        $this->createTable('products_in_category', [
+            'product_id' => "MEDIUMINT(8)",
+            'category_id' => "MEDIUMINT(8)",
+        ]);
+        $this->createIndex('index_product_id_category_id', 'products_in_category', ['product_id', 'category_id']);
+
 
 
     }
 
     public function down()
     {
-        echo "products_incategory cannot be reverted.\n";
+        echo "m160704_092350_products_in_category cannot be reverted.\n";
 
         return false;
     }
