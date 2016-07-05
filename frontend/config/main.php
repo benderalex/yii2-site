@@ -55,6 +55,9 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '<controller:\w+>/<key:[\w+-]*\w+>/?'=>'<controller>/view',
+                '<controller:\w+>/category/<cat:[\w+-]*\w+>/?'=>'<controller>/index',
+
             ],
         ],
 

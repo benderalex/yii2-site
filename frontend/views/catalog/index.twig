@@ -1,0 +1,9 @@
+{% for item in data %}
+    <a href="{{item.product_url}}">{{item.product_url}}</a>
+{% endfor %}
+<hr>
+
+{% for item in categories %}
+    <a href="/catalog/category/{{ item.category_url }}">{{ item.category_name }}</a>
+
+{% endfor %}

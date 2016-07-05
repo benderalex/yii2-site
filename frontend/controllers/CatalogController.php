@@ -4,10 +4,12 @@ namespace frontend\controllers;
 
 use Yii;
 use common\models\Catalog;
+use common\models\Categories;
 use common\models\CatalogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\helpers\Url;
 
 /**
  * CatalogController implements the CRUD actions for Catalog model.
@@ -33,7 +35,7 @@ class CatalogController extends Controller
      * Lists all Catalog models.
      * @return mixed
      */
-    public function actionIndex()
+    public function actionInde()
     {
         $searchModel = new CatalogSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
@@ -44,16 +46,45 @@ class CatalogController extends Controller
         ]);
     }
 
+
+    private function Categories() {
+        return Categories::find()->asArray()->all();
+    }
+
+
+    public function actionIndex($cat = null)
+    {
+
+
+
+       $data = Catalog::find()->asArray()->all();
+
+       
+
+
+
+
+       return $this->render('index.twig', ['data'=>$data,'categories'=>$this->Categories()]);
+    }
+
+
     /**
      * Displays a single Catalog model.
      * @param integer $id
      * @return mixed
      */
-    public function actionView($id)
+    public function actionView($key = null)
     {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+
+        $data = Catalog::find()->where(['product_url'=>$key])->one();
+        if(!$data) {
+            throw new \yii\web\NotFoundHttpException("Страница не найдена");
+        }
+
+        return $this->render('view', ['model'=>$data]);
+
+
+
     }
 
     /**
