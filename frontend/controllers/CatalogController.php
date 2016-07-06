@@ -9,7 +9,8 @@ use common\models\CatalogSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-use yii\helpers\Url;
+use yii\helpers\ArrayHelper;
+
 
 /**
  * CatalogController implements the CRUD actions for Catalog model.
@@ -55,16 +56,32 @@ class CatalogController extends Controller
     public function actionIndex($cat = null)
     {
 
+        $data = Catalog::find()->asArray()->all();
 
-
-       $data = Catalog::find()->asArray()->all();
-
-       
-
+        $products_in_category = Categories::find()->where(['category_url'=>$cat])->one();
 
 
 
-       return $this->render('index.twig', ['data'=>$data,'categories'=>$this->Categories()]);
+
+
+
+
+        if ($products_in_category<>null) {
+            $products_id = $products_in_category->products;
+            $categies_products = ArrayHelper::map($products_id,'id','id');
+            $data = Catalog::find()->where(['id'=>$categies_products])->asArray()->all();
+        }
+
+
+
+
+
+
+
+
+
+
+        return $this->render('index.twig', ['data'=>$data,'categories'=>$this->Categories()]);
     }
 
 
